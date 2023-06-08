@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class star_pattern {   
+class star_pattern {   
     public static void main(String[] args) {
         System.out.println("Enter Rows: ");
         Scanner row =new Scanner(System.in);
