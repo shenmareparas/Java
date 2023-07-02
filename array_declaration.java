@@ -8,12 +8,14 @@ class array_declaration {
         int num[] = new int[n];
         System.out.print("Enter array Values: ");
 
-    for (int i = 0; i < n; i++) {
-        num [i] = sc.nextInt();
-    }
+        for (int i = 0; i < n; i++) {
+            num[i] = sc.nextInt();
+        }
 
-    System.out.print("Array Elements Values: ");
-    for (int i = 0; i < n; i++) {
-    System.out.print(num[i]+" ");
-    sc.close();
-}}}
+        System.out.print("Array Elements Values: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(num[i] + " ");
+            sc.close();
+        }
+    }
+}
